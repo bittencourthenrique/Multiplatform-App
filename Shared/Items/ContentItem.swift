@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  Shared
+//  ContentItem.swift
+//  Multiplatform App
 //
-//  Created by Henrique Bittencourt on 10/24/21.
+//  Created by Henrique Bittencourt on 10/31/21.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -29,13 +29,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentItem_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/))
-                .preferredColorScheme(.dark)
-        }
+        ContentItem()
     }
 }
