@@ -1,13 +1,15 @@
 //
-//  ContentItem.swift
+//  CourseItem.swift
 //  Multiplatform App
 //
-//  Created by Henrique Bittencourt on 10/31/21.
+//  Created by Henrique Bittencourt on 11/2/21.
 //
 
 import SwiftUI
 
-struct ContentItem: View {
+import SwiftUI
+
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -29,8 +31,8 @@ struct ContentItem: View {
     }
 }
 
-struct ContentItem_Previews: PreviewProvider {
+struct CourseItem_Previews: PreviewProvider {
     static var previews: some View {
-        ContentItem()
+        CourseItem()
     }
 }
