@@ -22,6 +22,7 @@ struct CoursesView: View {
                         .frame(width: 335, height: 250)
                 }
                 .frame(maxWidth: .infinity)
+                
             }
             if show {
                 ScrollView {
