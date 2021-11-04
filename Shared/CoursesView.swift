@@ -16,11 +16,15 @@ struct CoursesView: View {
     var body: some View {
         ZStack {
             ScrollView {
-                VStack(spacing: 20) {
+                LazyVGrid(columns: [
+                    GridItem(.adaptive(minimum: 160), spacing: 16)
+                    ],
+                    spacing: 16
+                ) {
                     ForEach(courses) { item in
                         CourseItem(course: item)
                             .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
-                        .frame(width: 335, height: 250)
+                        .frame(height: 200)
                         .onTapGesture {
                             withAnimation(.spring()) {
                                 show.toggle()
@@ -31,8 +35,8 @@ struct CoursesView: View {
                         .disabled(isDisabled)
                     }
                 }
+                .padding(16)
                 .frame(maxWidth: .infinity)
-                
             }
             if selectedItem != nil {
                 ScrollView {
