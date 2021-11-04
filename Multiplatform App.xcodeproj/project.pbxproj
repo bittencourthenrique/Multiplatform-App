@@ -78,6 +78,14 @@
 			path = Items;
 			sourceTree = "<group>";
 		};
+		BE624C2E27349FFB00B6ED72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE624C2B27346EFE00B6ED72 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BE8EF95327263FBA00C1A256 = {
 			isa = PBXGroup;
 			children = (
@@ -92,9 +100,9 @@
 			children = (
 				BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */,
 				BE624C23272EDC9600B6ED72 /* Navigation */,
+				BE624C2E27349FFB00B6ED72 /* Model */,
 				BE624C24272EDCC100B6ED72 /* Items */,
 				BE624C17272A2DAA00B6ED72 /* CoursesView.swift */,
-				BE624C2B27346EFE00B6ED72 /* Course.swift */,
 				BE624C25272EDD6C00B6ED72 /* CourseList.swift */,
 				BE8EF95B27263FBB00C1A256 /* Assets.xcassets */,
 			);
