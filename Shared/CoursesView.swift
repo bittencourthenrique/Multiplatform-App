@@ -41,9 +41,9 @@ struct CoursesView: View {
                 .padding(16)
                 .frame(maxWidth: .infinity)
             }
-            zIndex(1)
+            .zIndex(1)
             if selectedItem != nil {
-                ZStack {
+                ZStack(alignment: .topTrailing) {
                     VStack {
                         ScrollView {
                             CourseItem(course: selectedItem!)
@@ -61,9 +61,9 @@ struct CoursesView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
                     .matchedGeometryEffect(id: "container\(selectedItem!.id)", in: namespace)
                 .edgesIgnoringSafeArea(.all)
-                zIndex(2)
-                    
+
                 CloseButton()
+                    .padding(.trailing, 16)
                     .onTapGesture {
                         withAnimation(.spring()) {
                             show.toggle()
@@ -74,6 +74,7 @@ struct CoursesView: View {
                         }
                     }
                 }
+                .zIndex(2)
             }
         }
     }
