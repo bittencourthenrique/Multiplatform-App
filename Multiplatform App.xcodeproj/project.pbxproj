@@ -37,6 +37,8 @@
 		BE624C4A27360A9100B6ED72 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C3B27360A9100B6ED72 /* Download.swift */; };
 		BE624C4B27360A9100B6ED72 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C3C27360A9100B6ED72 /* Livestream.swift */; };
 		BE624C4C27360A9100B6ED72 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C3C27360A9100B6ED72 /* Livestream.swift */; };
+		BE624C4F2737249200B6ED72 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C4E2737249200B6ED72 /* VisualEffectBlur.swift */; };
+		BE624C512737250200B6ED72 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C502737250200B6ED72 /* VisualEffectBlur.swift */; };
 		BE8EF96927263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */; };
 		BE8EF96A27263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */; };
 		BE8EF96B27263FBB00C1A256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95A27263FBA00C1A256 /* ContentView.swift */; };
@@ -61,6 +63,8 @@
 		BE624C3A27360A9100B6ED72 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		BE624C3B27360A9100B6ED72 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		BE624C3C27360A9100B6ED72 /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
+		BE624C4E2737249200B6ED72 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		BE624C502737250200B6ED72 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplatform_AppApp.swift; sourceTree = "<group>"; };
 		BE8EF95A27263FBA00C1A256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8EF95B27263FBB00C1A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,11 +124,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BE624C4D2737249200B6ED72 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE624C4E2737249200B6ED72 /* VisualEffectBlur.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		BE8EF95327263FBA00C1A256 = {
 			isa = PBXGroup;
 			children = (
 				BE8EF95827263FBA00C1A256 /* Shared */,
-				BE8EF96727263FBB00C1A256 /* macOS */,
 				BE8EF96127263FBB00C1A256 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +152,8 @@
 				BE624C2F2734AF6500B6ED72 /* CloseButton.swift */,
 				BE624C25272EDD6C00B6ED72 /* CourseList.swift */,
 				BE8EF95B27263FBB00C1A256 /* Assets.xcassets */,
+				BE624C4D2737249200B6ED72 /* iOS */,
+				BE8EF96727263FBB00C1A256 /* macOS */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +170,7 @@
 		BE8EF96727263FBB00C1A256 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				BE624C502737250200B6ED72 /* VisualEffectBlur.swift */,
 				BE8EF96827263FBB00C1A256 /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -275,6 +289,7 @@
 				BE8EF96927263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */,
 				BE624C4B27360A9100B6ED72 /* Livestream.swift in Sources */,
 				BE624C18272A2DAA00B6ED72 /* CoursesView.swift in Sources */,
+				BE624C4F2737249200B6ED72 /* VisualEffectBlur.swift in Sources */,
 				BE624C4327360A9100B6ED72 /* CourseSection.swift in Sources */,
 				BE624C26272EDD6C00B6ED72 /* CourseList.swift in Sources */,
 			);
@@ -299,6 +314,7 @@
 				BE8EF96A27263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */,
 				BE624C4C27360A9100B6ED72 /* Livestream.swift in Sources */,
 				BE624C19272A2DAA00B6ED72 /* CoursesView.swift in Sources */,
+				BE624C512737250200B6ED72 /* VisualEffectBlur.swift in Sources */,
 				BE624C4427360A9100B6ED72 /* CourseSection.swift in Sources */,
 				BE624C27272EDD6C00B6ED72 /* CourseList.swift in Sources */,
 			);
