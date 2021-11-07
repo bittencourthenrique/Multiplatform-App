@@ -21,10 +21,9 @@ struct CoursesView: View {
         ZStack {
             #if os(iOS)
             if horizontalSizeClass == .compact {
-                tabBar
-            } else {
-                sidebar
             }
+            tabBar
+                .navigationBarHidden(true)
             fullContent
                 .background(VisualEffectBlur(blurStyle: .systemMaterial).edgesIgnoringSafeArea(.all))
             #else
@@ -152,7 +151,6 @@ struct CoursesView: View {
             }
         }
     }
-    
     @ViewBuilder
     var sidebar: some View {
         #if os(iOS)
