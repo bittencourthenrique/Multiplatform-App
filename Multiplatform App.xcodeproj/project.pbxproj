@@ -101,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BE8EF95A27263FBA00C1A256 /* ContentView.swift */,
+				BE624C522737567000B6ED72 /* TabBar.swift */,
 				BE624C1D272A321D00B6ED72 /* SideBar.swift */,
 			);
 			path = Navigation;
@@ -150,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */,
-				BE624C522737567000B6ED72 /* TabBar.swift */,
 				BE624C23272EDC9600B6ED72 /* Navigation */,
 				BE624C2E27349FFB00B6ED72 /* Model */,
 				BE624C24272EDCC100B6ED72 /* Items */,
