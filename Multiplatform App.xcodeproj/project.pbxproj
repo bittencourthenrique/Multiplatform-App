@@ -40,6 +40,9 @@
 		BE624C4F2737249200B6ED72 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C4E2737249200B6ED72 /* VisualEffectBlur.swift */; };
 		BE624C512737250200B6ED72 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C502737250200B6ED72 /* VisualEffectBlur.swift */; };
 		BE624C532737567000B6ED72 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C522737567000B6ED72 /* TabBar.swift */; };
+		BE624C5427375CEC00B6ED72 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C522737567000B6ED72 /* TabBar.swift */; };
+		BE624C562737615600B6ED72 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C552737615600B6ED72 /* CourseSectionDetail.swift */; };
+		BE624C572737615600B6ED72 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624C552737615600B6ED72 /* CourseSectionDetail.swift */; };
 		BE8EF96927263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */; };
 		BE8EF96A27263FBB00C1A256 /* Multiplatform_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */; };
 		BE8EF96B27263FBB00C1A256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EF95A27263FBA00C1A256 /* ContentView.swift */; };
@@ -67,6 +70,7 @@
 		BE624C4E2737249200B6ED72 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		BE624C502737250200B6ED72 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		BE624C522737567000B6ED72 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		BE624C552737615600B6ED72 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 		BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplatform_AppApp.swift; sourceTree = "<group>"; };
 		BE8EF95A27263FBA00C1A256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8EF95B27263FBB00C1A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,7 +141,6 @@
 		BE8EF95327263FBA00C1A256 = {
 			isa = PBXGroup;
 			children = (
-				BE624C522737567000B6ED72 /* TabBar.swift */,
 				BE8EF95827263FBA00C1A256 /* Shared */,
 				BE8EF96127263FBB00C1A256 /* Products */,
 			);
@@ -147,11 +150,13 @@
 			isa = PBXGroup;
 			children = (
 				BE8EF95927263FBA00C1A256 /* Multiplatform_AppApp.swift */,
+				BE624C522737567000B6ED72 /* TabBar.swift */,
 				BE624C23272EDC9600B6ED72 /* Navigation */,
 				BE624C2E27349FFB00B6ED72 /* Model */,
 				BE624C24272EDCC100B6ED72 /* Items */,
 				BE624C17272A2DAA00B6ED72 /* CoursesView.swift */,
 				BE624C32273608C400B6ED72 /* CourseDetail.swift */,
+				BE624C552737615600B6ED72 /* CourseSectionDetail.swift */,
 				BE624C2F2734AF6500B6ED72 /* CloseButton.swift */,
 				BE624C25272EDD6C00B6ED72 /* CourseList.swift */,
 				BE8EF95B27263FBB00C1A256 /* Assets.xcassets */,
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE624C2C27346EFE00B6ED72 /* Course.swift in Sources */,
+				BE624C562737615600B6ED72 /* CourseSectionDetail.swift in Sources */,
 				BE624C3D27360A9100B6ED72 /* LivestreamSection.swift in Sources */,
 				BE624C532737567000B6ED72 /* TabBar.swift in Sources */,
 				BE624C1E272A321D00B6ED72 /* SideBar.swift in Sources */,
@@ -304,7 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE624C2D27346EFE00B6ED72 /* Course.swift in Sources */,
+				BE624C572737615600B6ED72 /* CourseSectionDetail.swift in Sources */,
 				BE624C3E27360A9100B6ED72 /* LivestreamSection.swift in Sources */,
+				BE624C5427375CEC00B6ED72 /* TabBar.swift in Sources */,
 				BE624C1F272A321D00B6ED72 /* SideBar.swift in Sources */,
 				BE8EF96C27263FBB00C1A256 /* ContentView.swift in Sources */,
 				BE624C34273608C400B6ED72 /* CourseDetail.swift in Sources */,
